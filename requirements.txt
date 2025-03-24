@@ -3,5 +3,4 @@ pandas
 matplotlib
 seaborn
 streamlit
-time
 plotly.express
