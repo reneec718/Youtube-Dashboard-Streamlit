@@ -30,9 +30,9 @@ st.set_page_config(page_title="YouTube Dashboard", page_icon="🎬", layout="wid
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["📑 Introduction", "🎮 Gaming", "📽️ Movies", "🎵 Music", "🔏 Improvement"])
 
 # df_gaming = pd.read_csv("pages/data/gaming.csv")
-df_gaming = pd.read_csv("pages/data/gaming.csv")
-df_movie = pd.read_csv("pages/data/movies.csv")
-df_music = pd.read_csv("pages/data/music.csv")
+df_gaming = pd.read_csv("gaming.csv")
+df_movie = pd.read_csv("movies.csv")
+df_music = pd.read_csv("music.csv")
 
 ######################################################################### INTRODUCTION #######################################################################
 with tab1:
